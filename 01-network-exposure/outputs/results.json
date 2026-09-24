@@ -1,0 +1,23 @@
+{
+  "death_addresses": 133,
+  "deaths": 392,
+  "pumps": 13,
+  "street_edges_after_noding": 284,
+  "broad_street_pump_index": 8,
+  "share_nearest_broad_euclidean": 0.6786,
+  "share_nearest_broad_network": 0.699,
+  "deaths_reassigned_euclid_to_network": 56,
+  "mean_walk_to_broad_m_observed": 155.0,
+  "mean_walk_to_broad_m_random_mean": 366.1,
+  "share_nearest_broad_random_mean": 0.1405,
+  "p_value_share": 0.001,
+  "p_value_mean_distance": 0.001,
+  "mean_network_over_euclid_ratio": 1.435,
+  "web_mercator_distance_inflation": 1.605,
+  "kde_peak_to_broad_m": 7.6,
+  "network_exposure_diagnostics": {
+    "assignment_disagreement_share": 0.1429,
+    "broad_street_concentration_vs_network_null": 4.97,
+    "observed_walk_distance_reduction_vs_network_null": 0.5766
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "n_samples": 155,
+  "crs": "EPSG:28992",
+  "variogram_log10_zinc": {
+    "model": "spherical",
+    "range_m": 963.5,
+    "sill": 0.1211,
+    "nugget": 0.0
+  },
+  "median_nn_distance_m": {
+    "sample_to_sample": 107.37783756436893,
+    "grid_to_sample": 81.02468759581859
+  },
+  "random_10fold_[rmse,r2]": {
+    "RF-covariates": [
+      0.1849,
+      0.6499
+    ],
+    "RF-coords": [
+      0.1547,
+      0.7548
+    ],
+    "Kriging": [
+      0.1994,
+      0.5927
+    ]
+  },
+  "spatial_block_10fold_[rmse,r2]": {
+    "RF-covariates": [
+      0.192,
+      0.6226
+    ],
+    "RF-coords": [
+      0.1686,
+      0.7086
+    ],
+    "Kriging": [
+      0.257,
+      0.3233
+    ]
+  },
+  "buffered_loo_rmse": {
+    "radii_m": [
+      0,
+      100,
+      250,
+      500,
+      750,
+      1000
+    ],
+    "RF-covariates": [
+      0.1835,
+      0.1851,
+      0.1916,
+      0.2014,
+      0.2103,
+      0.2159
+    ],
+    "RF-coords": [
+      0.1526,
+      0.1526,
+      0.1685,
+      0.1845,
+      0.2002,
+      0.2029
+    ],
+    "Kriging": [
+      0.1942,
+      0.1975,
+      0.2505,
+      0.318,
+      0.3333,
+      0.3325
+    ]
+  },
+  "spatial_generalization_diagnostics": {
+    "spatial_block_rmse_penalty": {
+      "RF-covariates": 0.0384,
+      "RF-coords": 0.0899,
+      "Kriging": 0.2889
+    },
+    "one_km_buffered_rmse_penalty": {
+      "RF-covariates": 0.1765,
+      "RF-coords": 0.3298,
+      "Kriging": 0.7122
+    }
+  }
+}
